@@ -1,0 +1,164 @@
+*{
+padding: 0;
+margin: 0;
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;
+}
+body
+{
+    font-family: Verdana,sans-serif;
+    font-style :italic;
+}
+nav
+{
+ background: orange;
+ height: 80px;
+ width: 100%;
+}
+label.logo {
+ color:white;
+ font-size: 35px;
+ line-height: 80px;
+ padding: 0 250px;
+ font-weight: bold;
+}
+nav ul {
+ float: right;
+ margin-right: 20px
+}
+nav ul li {
+ display: inline-block;
+ line-height: 80px;
+ margin:0 5px;
+}
+nav ul li a{
+ color: white;
+ font-size: 17px;
+ padding: 7px 13px;
+ border-radius: 3px;
+ text-transform: uppercase;
+}
+a.active,a:hover{
+ background: #1b9bff;
+ transition: .5s;
+}
+
+
+.main_menu
+{
+  padding: 5px 0 5px 0;
+ text-align: center;
+ line-height: 32px;
+ background-color: #818181;
+}
+
+ul.main_menu
+{
+ margin-top: 15px;
+}
+
+.main_menu li {
+ display: inline;
+ padding: 0 10px 0 10px;
+ font-size: 20px;
+}
+.main_menu a {
+ text-decoration: none;
+ color: #fff;
+ padding: 8px;
+ font-variant: small-caps;
+}
+.main_menu a:hover
+{
+ color: #59d5d8;
+}
+
+
+.slideshow{
+   width: 800px;
+   height: 600px;
+  margin-left: auto;
+ margin-right: auto;
+ overflow : hidden;
+ text-align: center;
+}
+.image {
+  width: 2400px;
+   height: 600px;
+   position: relative;
+   transition: left 2s;
+  -webkit-transition: left 2s;
+  -moz-transition: left 2s;
+  -o-transition: left 2s;
+}
+.simage {
+ float : left;
+margin: 0px;
+ padding: 0px;
+
+}
+
+.button{
+top: -20px;
+position: relative;
+}
+.slider{
+  display: inline-block;
+ height: 10px;
+  width: 10px;
+  border-radius-color: white;
+}
+
+#simage1:target ~ .image-container{
+   left: 0px;
+}
+#simage2:target ~ .image-container{
+   left: -800px;
+}
+#simage3:target ~ .image-container{
+   left: -1600px;
+}
+
+.backg{
+  background-image: url("i1.jpg");
+  filter: blur(10px);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+ background-size: cover;
+}
+.btext
+{
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+  color: white;
+  border: 3px solid #f1f1f1;
+ position: absolute;
+ top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+ z-index:2;
+ width:80%;
+ padding:20px;' text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
